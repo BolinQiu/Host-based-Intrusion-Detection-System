@@ -1,0 +1,10 @@
+// the test
+digraph MyPicture {
+	graph [rankdir=LR]
+	7433940308751529708 [label="{'subject': '/sbin/rpcbind'}12" color=blue shape=box]
+	7383436290110635353 [label="{'file': '/etc/netconfig'}12" color=blue shape=oval]
+	7433940308751529708 -> 7383436290110635353 [label=EVENT_READ color=blue]
+	7383436290110635353 [label="{'file': '/etc/netconfig'}12" color=blue shape=oval]
+	7433940308751529708 [label="{'subject': '/sbin/rpcbind'}12" color=blue shape=box]
+	7383436290110635353 -> 7433940308751529708 [label=EVENT_EXECUTE color=blue]
+}

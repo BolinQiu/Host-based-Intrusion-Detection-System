@@ -1,0 +1,13 @@
+// the test
+digraph MyPicture {
+	graph [rankdir=LR]
+	347583268538161001 [label="{'subject': '/usr/sbin/cupsd'}10" color=blue shape=box]
+	17263174758488447990 [label="{'file': '/run/cups/certs/0'}10" color=blue shape=oval]
+	347583268538161001 -> 17263174758488447990 [label=EVENT_CONNECT color=blue]
+	347583268538161001 [label="{'subject': '/usr/sbin/cupsd'}10" color=blue shape=box]
+	6524866345096316881 [label="{'file': '/etc/cups/subscriptions.conf.N'}10" color=blue shape=oval]
+	347583268538161001 -> 6524866345096316881 [label=EVENT_CONNECT color=blue]
+	347583268538161001 [label="{'subject': '/usr/sbin/cupsd'}10" color=blue shape=box]
+	2216758274655315804 [label="{'file': '/var/log/cups/access_log'}10" color=blue shape=oval]
+	347583268538161001 -> 2216758274655315804 [label=EVENT_CONNECT color=blue]
+}
